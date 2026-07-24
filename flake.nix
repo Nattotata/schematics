@@ -1,5 +1,5 @@
 {
-  description = "Industrial Escape Room Puzzle PCB Development Environment";
+  description = "Schematics and KiCad";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -17,17 +17,16 @@
       {
         devShells.default = pkgs.mkShell {
           buildInputs = [
-            pkgs.kicad # Pure KiCad suite (Python and standard assets integrated)
-            pkgs.ngspice # Standalone SPICE circuit simulation engine
-            pkgs.python3 # System Python environment
+            pkgs.kicad
+            pkgs.ngspice
+            pkgs.python3
           ];
 
           shellHook = ''
-            echo "========================================================="
-            echo "⚡ KiCad PCB Design Environment Active ⚡"
-            echo "  - Core GUI: launch via 'kicad'"
-            echo "  - Simulation Backend: ngspice engine verified"
-            echo "========================================================="
+            echo "Core GUI: launch via 'kicad'"
+            echo "Simulation Backend: ngspice engine verified"
+            echo "install kicad theme manually from 'kicad-gruvbox-theme'"
+            echo "https://github.com/AlexanderBrevig/kicad-gruvbox-theme"
             
             # Locate and export the Python bindings provided by KiCad
             if [ -d "${pkgs.kicad}/lib/python3.11/site-packages" ]; then

@@ -1145,8 +1145,18 @@
 		)
 		(uuid "ff60c58a-590a-4428-bd97-eb9b06282eb8")
 	)
-	(label "ESP digital signal output (like a speaker module)"
-		(at 115.57 72.39 0)
+	(label "like a speaker module"
+		(at 110.49 69.85 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "4121f579-28c7-4ad6-9e4b-2d8cd905b62c")
+	)
+	(label "ESP digital signal output"
+		(at 110.49 66.04 0)
 		(effects
 			(font
 				(size 1.778 1.778)

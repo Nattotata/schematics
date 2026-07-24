@@ -5,7 +5,7 @@
 	(uuid "2de42d58-604f-479d-9755-1d485ab29af9")
 	(paper "A4")
 	(title_block
-		(title "Power input and regulation (12V to 5V)")
+		(title "Power input and regulation")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -1196,6 +1196,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1470,6 +1609,12 @@
 		(uuid "202fe63a-6efb-482b-9e95-c95145873cb2")
 	)
 	(junction
+		(at 101.6 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4763e473-e1dc-4460-bfa5-1fa99cb6a04d")
+	)
+	(junction
 		(at 147.32 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1619,7 +1764,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 101.6 92.71)
+			(xy 101.6 82.55) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1696,6 +1841,16 @@
 			(type default)
 		)
 		(uuid "9f1e7db3-5974-41b0-ba38-c45ca8df957a")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d9a2bc-c427-49af-ab23-ebbafdb8c8e5")
 	)
 	(wire
 		(pts
@@ -1818,7 +1973,7 @@
 		(uuid "f4ece3a7-0069-4bec-8a8a-b420c2f52df5")
 	)
 	(label "Power input and regulation (12V to 5V)"
-		(at 123.19 73.66 0)
+		(at 123.19 71.12 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1826,26 +1981,6 @@
 			(justify left bottom)
 		)
 		(uuid "6b0b2ca5-0d74-4bb4-a889-789ce4c7590f")
-	)
-	(label "+12V"
-		(at 101.6 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abb50b4c-0fc1-4be6-ba83-cb059703b8fd")
-	)
-	(label "GND"
-		(at 101.6 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4d5ffbd-be8f-4f8b-b61f-2d521c5f9606")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2166,6 +2301,84 @@
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/84527307-db04-4e9a-b4c6-f367c646187b"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 101.6 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c62f19-81c0-4489-982d-65cd5e2843a2")
+		(property "Reference" "#PWR04"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 101.6 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 101.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af439422-0cc0-4192-b349-8b08c59ed61f")
+		)
+		(instances
+			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/84527307-db04-4e9a-b4c6-f367c646187b"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

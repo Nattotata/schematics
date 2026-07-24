@@ -1176,12 +1176,6 @@
 		)
 	)
 	(junction
-		(at 119.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "038a7934-e91a-4563-bd24-957882745b9d")
-	)
-	(junction
 		(at 134.62 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1192,6 +1186,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad681bd2-09a4-49cb-8104-1b07b79b633e")
+	)
+	(junction
+		(at 119.38 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd5056d9-2d1b-44d1-aff8-88e49b3722bc")
 	)
 	(wire
 		(pts
@@ -1205,7 +1205,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 119.38 107.95)
+			(xy 102.87 107.95) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074a5d84-ef2b-4fc5-9b9e-6dc6df47502a")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1325,6 +1335,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 96.52) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef80697-df24-4826-8c37-e97776d2f85a")
+	)
+	(wire
+		(pts
 			(xy 134.62 96.52) (xy 135.89 96.52)
 		)
 		(stroke
@@ -1425,7 +1445,7 @@
 	)
 	(global_label "GPIO"
 		(shape input)
-		(at 119.38 104.14 90)
+		(at 119.38 96.52 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1435,7 +1455,7 @@
 		)
 		(uuid "e4da220c-cfbd-4d0b-a2d3-ab9162ecc9a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 96.6795 90)
+			(at 119.38 89.0595 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1446,6 +1466,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "signal_input"
+		(shape output)
+		(at 102.87 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30aadb6d-1e01-4066-9549-827041867878")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
