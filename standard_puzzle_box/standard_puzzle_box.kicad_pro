@@ -416,7 +416,7 @@
         "uuid": "13314f97-080e-4924-a8fe-b4d224920625"
       }
     ],
-    "used_designators": "D1flyback1-4,J1-17,#PWR1-17,#PWR19,#PWR21-82,R1-28,C1-24,D1-18,Q1-5,F1-3,U1-14",
+    "used_designators": "D1flyback1-2,J1-10,#PWR1-17,#PWR19,#PWR21-50,R1-10,R12-19,C1-16,D1-12,Q1-3,F1-3,U1-9",
     "variants": []
   },
   "sheets": [
@@ -443,34 +443,6 @@
     [
       "a03c39d6-6910-42d9-b21d-b8f6aa6403fb",
       "boolean_output"
-    ],
-    [
-      "c0b0d7d0-33da-4714-9ac3-d3e577314e9e",
-      "signal_input1"
-    ],
-    [
-      "d355bcbe-498e-4dcd-b90a-6c2fd2972f51",
-      "signal_output1"
-    ],
-    [
-      "e6ebc0cf-0436-4396-9996-34f92e1726df",
-      "boolean_input1"
-    ],
-    [
-      "e263c93f-c5f2-4128-9ed9-7224d6818bb3",
-      "boolean_input2"
-    ],
-    [
-      "30374950-90da-411c-8e4a-5ea850107fc3",
-      "boolean_input3"
-    ],
-    [
-      "d25a32d7-442e-482e-90f8-47542d85b960",
-      "boolean_output1"
-    ],
-    [
-      "05a99c97-6240-4e5e-b6a9-a36dfb628c26",
-      "boolean_output2"
     ]
   ],
   "text_variables": {},

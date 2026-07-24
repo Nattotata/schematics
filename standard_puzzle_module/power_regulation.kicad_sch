@@ -1591,10 +1591,10 @@
 		)
 	)
 	(junction
-		(at 115.57 82.55)
+		(at 191.77 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0abcf186-4ac2-4e90-9304-5d23377f451a")
+		(uuid "186aae2e-9b4c-472d-9781-9a7afe56d2b8")
 	)
 	(junction
 		(at 135.89 106.68)
@@ -1606,7 +1606,13 @@
 		(at 182.88 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "202fe63a-6efb-482b-9e95-c95145873cb2")
+		(uuid "22bc566f-efe5-4218-845a-4e0b44e846a2")
+	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a28828-ee1a-48f8-a3c8-0710f359dff0")
 	)
 	(junction
 		(at 101.6 87.63)
@@ -1621,16 +1627,16 @@
 		(uuid "49f441e3-b512-4b55-b85d-06c4a827b6d6")
 	)
 	(junction
+		(at 191.77 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60440657-2b97-4da9-bf69-71ed8c324c8b")
+	)
+	(junction
 		(at 182.88 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fcba6e9-e072-4ec0-9ae1-9a5284324f8a")
-	)
-	(junction
-		(at 191.77 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a0e03e1-b3d5-4ec0-9c36-9488b38a4913")
+		(uuid "6d24f0b1-3e18-4a0e-99da-1d6df311a83b")
 	)
 	(junction
 		(at 115.57 106.68)
@@ -1649,12 +1655,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc5d1005-911f-477c-b158-c92eadbaf713")
-	)
-	(junction
-		(at 191.77 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd4fc1a1-15b5-4926-865c-16c1affc74ee")
 	)
 	(junction
 		(at 168.91 106.68)
@@ -1744,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 102.87) (xy 191.77 106.68)
+			(xy 191.77 101.6) (xy 191.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 92.71) (xy 182.88 106.68)
+			(xy 182.88 93.98) (xy 182.88 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1864,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 95.25) (xy 191.77 82.55)
+			(xy 191.77 93.98) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1904,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 82.55) (xy 182.88 85.09)
+			(xy 182.88 82.55) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2144,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 182.88 88.9 0)
+		(at 182.88 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2155,7 +2155,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d1f5dc4-55c8-44bb-952d-0adb7447ef7c")
 		(property "Reference" "C15"
-			(at 186.69 86.7409 0)
+			(at 186.69 88.0109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2166,7 +2166,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 186.69 89.2809 0)
+			(at 186.69 90.5509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 183.8452 92.71 0)
+			(at 183.8452 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2188,7 +2188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 88.9 0)
+			(at 182.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,7 +2199,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 182.88 88.9 0)
+			(at 182.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2470,7 +2470,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 99.06 0)
+		(at 191.77 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2481,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "a46be15c-2df6-40b2-9812-6f7fc912e164")
 		(property "Reference" "C16"
-			(at 195.58 97.7899 0)
+			(at 195.58 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2492,7 +2492,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 195.58 100.3299 0)
+			(at 195.58 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2503,7 +2503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 192.7352 102.87 0)
+			(at 192.7352 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2514,7 +2514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 99.06 0)
+			(at 191.77 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,7 +2525,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 99.06 0)
+			(at 191.77 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

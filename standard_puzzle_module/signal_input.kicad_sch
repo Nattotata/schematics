@@ -1546,19 +1546,23 @@
 			)
 		)
 		(pin "3"
-			(uuid "c3a55da2-27bd-4e0c-ad76-fee8fa85f23e")
+			(uuid "299feb01-b4ad-4edb-b526-f86d72b30ed1")
 		)
 		(pin "2"
-			(uuid "e9b11683-d952-463d-a2ee-8527701991ce")
+			(uuid "f0314b39-ffc1-4b80-b30a-a6880d8b1c7e")
 		)
 		(pin "1"
-			(uuid "c58999d0-f6f3-4b65-a335-826a6db95b09")
+			(uuid "35944a7d-7abf-4b93-8efa-9e0fe2e3042d")
 		)
 		(pin "4"
-			(uuid "669f9382-636a-440a-8fc9-cc06cf8617cd")
+			(uuid "14aaa8ec-15f2-49c1-9ca5-09652fbd13ed")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "J11")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "J9")
 					(unit 1)
@@ -1632,13 +1636,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "875e2cfa-2e18-4324-ac50-c39edba97a7c")
+			(uuid "239b1321-bfad-46f5-a10c-e4731f11ba79")
 		)
 		(pin "1"
-			(uuid "42e6faa5-237f-42e9-93b8-46dffd6c7bb6")
+			(uuid "3fb2a98a-3f56-4076-9ae9-78b9d706e638")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "R21")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "R19")
 					(unit 1)
@@ -1712,10 +1720,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ef69ddb-e6c9-4a38-9489-8390c45e3b83")
+			(uuid "2595f6ba-d00d-4b07-a054-886e26fe9cd2")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR051")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR042")
 					(unit 1)
@@ -1789,10 +1801,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "817a3f9d-fecc-4b0c-be32-fc50b8d2f603")
+			(uuid "2f64a878-44c7-462a-a282-c9d7ac91e065")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR054")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR045")
 					(unit 1)
@@ -1866,10 +1882,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2f9ae3e-069f-4cea-857f-304728c9c1a2")
+			(uuid "b719c219-a3db-4b14-ac14-93a9cd0da0f6")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR052")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR043")
 					(unit 1)
@@ -1943,13 +1963,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "67359598-6ee8-4217-b56d-394a53034862")
+			(uuid "cea483e7-ee07-4a68-844b-cf319597c0c9")
 		)
 		(pin "1"
-			(uuid "246ef4a9-b1d3-4eb8-b441-19e419c96494")
+			(uuid "c2a37fbf-9b7a-415c-ad96-f4c5e8f71f37")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "D14")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "D10")
 					(unit 1)
@@ -2023,13 +2047,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "71045c02-d4be-4f6a-8271-f9fad8e77bd8")
+			(uuid "4ae80f52-f569-4a1e-b1a9-16302ae4c189")
 		)
 		(pin "1"
-			(uuid "e54b8a50-e9cf-44ac-aed5-49021872138f")
+			(uuid "2f71d9d0-47c6-4bff-8a0d-e8a7a4e1bc66")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "D13")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "D9")
 					(unit 1)
@@ -2103,10 +2131,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "473089c7-7d09-4004-9096-71c7b2ce3e83")
+			(uuid "7c05d5ad-32e3-4cf0-b9d2-4a7d0269513c")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR055")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR046")
 					(unit 1)
@@ -2182,13 +2214,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "295f419b-6504-449b-a5ee-a271f564675a")
+			(uuid "7ae87487-e815-48d8-bc9d-47285cdb3efe")
 		)
 		(pin "1"
-			(uuid "c5f6bece-c55e-4326-a5ae-7b357c6efffc")
+			(uuid "bc6cb3e8-cc94-4921-8020-ddf08c120b31")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "R20")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "R18")
 					(unit 1)
@@ -2261,13 +2297,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d8be04b-316e-440a-bf9a-e31a04f914ac")
+			(uuid "a29a04e4-aeef-4a48-9e16-76afce8d2186")
 		)
 		(pin "1"
-			(uuid "06794e41-5b1a-49e5-9c37-d6f31efe9567")
+			(uuid "5bb2c81a-8cc6-49d4-8de2-c1af775728f4")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "C17")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "C13")
 					(unit 1)
@@ -2341,10 +2381,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d373dd3b-f535-489e-bf00-cdde2aaa2b01")
+			(uuid "ff987bf3-b008-4367-85af-88cf30938945")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR057")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR048")
 					(unit 1)
@@ -2418,10 +2462,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "945167f8-61e8-453b-a9d3-106c88dd82e4")
+			(uuid "7042f60a-b603-4083-8887-a7efe9124037")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR044")
 					(unit 1)
@@ -2496,10 +2544,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "34da58aa-8a4a-421d-ba29-98c1b67a5f04")
+			(uuid "9b751a19-e79b-41e9-a200-1f693b32e7fd")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/c0b0d7d0-33da-4714-9ac3-d3e577314e9e"
+					(reference "#PWR056")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/c2e63cb3-71db-41cb-b6d8-62c7e6a89138"
 					(reference "#PWR047")
 					(unit 1)

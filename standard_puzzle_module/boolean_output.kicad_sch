@@ -1910,6 +1910,12 @@
 		(uuid "193d59df-3dfc-490d-8b3c-118d330b2e7c")
 	)
 	(junction
+		(at 104.14 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a86416a-45ac-45ec-9160-79c08223a4d7")
+	)
+	(junction
 		(at 168.91 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2027,6 +2033,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 90.17) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668d8cfb-9c2f-4456-b37e-08ecd5765928")
+	)
+	(wire
+		(pts
 			(xy 116.84 96.52) (xy 120.65 96.52)
 		)
 		(stroke
@@ -2117,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 92.71)
+			(xy 104.14 86.36) (xy 104.14 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2184,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "c6384be3-ee0b-4d99-9e55-3c83e6ee6f7b")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb67810-0b91-4619-83bb-545fa1ef172d")
 	)
 	(wire
 		(pts
@@ -2269,6 +2295,17 @@
 			)
 		)
 	)
+	(hierarchical_label "out"
+		(shape input)
+		(at 99.06 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7083e17-778c-4dca-bd77-544e27b6549d")
+	)
 	(symbol
 		(lib_id "power:+12V")
 		(at 140.97 82.55 0)
@@ -2336,12 +2373,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fc4a705-a443-414d-924a-dd39ebc44f67")
+			(uuid "044c7642-6ca1-4556-8cc2-645ef8c58fec")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "#PWR079")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2414,12 +2459,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "58fa3593-1b13-4f4f-b05e-93caa58a7307")
+			(uuid "c11b6502-4edf-49cc-b17e-b0bebcb2cfca")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "#PWR082")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2514,15 +2567,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "39dcf5ba-ab64-4cb6-b1d0-dbb328c580d9")
+			(uuid "b06ed6d1-df6b-4011-b081-82fcff991b38")
 		)
 		(pin "1"
-			(uuid "ae0a4839-435b-492c-9c61-b91d0b97a081")
+			(uuid "aec6571b-8dca-4e20-831c-8dabad9cb1ca")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "D1flyback4")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "D1flyback2")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "D1flyback3")
 					(unit 1)
 				)
 			)
@@ -2596,15 +2657,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e028eea-556a-4fc5-a0b2-c5bca1b307df")
+			(uuid "7d424213-966e-4955-8f98-5f6306a4c643")
 		)
 		(pin "2"
-			(uuid "d8bbb242-e64a-4f91-8352-1633314a0fa2")
+			(uuid "0264780b-b432-488b-9090-6e01973f96d4")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "C24")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "C11")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2679,21 +2748,29 @@
 			)
 		)
 		(pin "3"
-			(uuid "8fbb2938-3ebb-4d32-a2fa-9fdab12a02d1")
+			(uuid "1af21658-2da4-4cb8-b630-4791dfc2e7ed")
 		)
 		(pin "2"
-			(uuid "95852249-0b07-4ef1-a478-e5489ad2c5c3")
+			(uuid "4d335fcb-7806-4d21-b715-6b08733099c3")
 		)
 		(pin "1"
-			(uuid "1d978b6c-ecad-4ae9-969a-1eeacaade17a")
+			(uuid "2a49944a-21d5-471d-aa70-bd6b303e4f25")
 		)
 		(pin "4"
-			(uuid "eb2944e6-2a01-48f5-a3cb-24c6f80454a4")
+			(uuid "2fea9339-4895-4f4b-b76e-435bf83b2935")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "U14")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "U7")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2766,15 +2843,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "25118b94-e747-4cb5-8204-437793890c0b")
+			(uuid "ed59cb56-5623-4140-aca1-9712a9a6cbf0")
 		)
 		(pin "1"
-			(uuid "317ee383-53b6-420e-bddd-9f85d230dbba")
+			(uuid "a8296175-f713-48c3-878a-7cc05b2dbc2c")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "R27")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2847,12 +2932,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "938cc9fa-482a-4b6d-b068-e28a4061d490")
+			(uuid "1df1c4fe-9127-4ce8-a6ec-c31f572d2c21")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "#PWR078")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2926,15 +3019,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6a0389a-b643-4c12-aa75-bd0c93e32ae4")
+			(uuid "88739abd-34f0-42c0-90e9-df253003788c")
 		)
 		(pin "1"
-			(uuid "0e6a2f9a-6d1e-492d-975e-0b79f1403506")
+			(uuid "983a354f-ba94-4184-98dc-683d6308aba1")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "C23")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "C10")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3011,18 +3112,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "30b8b925-cea9-4bda-bc65-bb1a11a7e7aa")
+			(uuid "3104d678-ebf3-4464-951b-c92a61de77c5")
 		)
 		(pin "3"
-			(uuid "2e90334d-0304-47ce-8ef6-e1878da45aeb")
+			(uuid "b563809b-ff1c-4283-ba97-b1d2bacab960")
 		)
 		(pin "1"
-			(uuid "a7f009db-1d86-40fe-add7-d6a7383b8f7f")
+			(uuid "bfa4aa23-9a3c-4a4e-a9e6-8da4c94609f9")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "Q5")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3095,12 +3204,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d5e8c19-afc8-4d12-a251-c21cdf9bf063")
+			(uuid "9de73432-4baf-4430-86c7-b3b929089f12")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "#PWR080")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3174,15 +3291,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "87de7f3b-afe3-4e0a-91e3-c80b5722600d")
+			(uuid "6fc2a5fb-3285-4007-932d-27fa14e98519")
 		)
 		(pin "1"
-			(uuid "4a7f193b-90ce-443f-9963-52d0d0f86cff")
+			(uuid "3a633650-e963-4d3c-b0bc-2da0d25d3470")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "R28")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3256,15 +3381,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "a45ebe2c-6f51-4414-8c58-9f159eaa01d2")
+			(uuid "d42980f5-b690-4672-8e53-9cc90931f9fe")
 		)
 		(pin "1"
-			(uuid "e9d8f51b-28f8-45ec-9aad-d1e900b799a1")
+			(uuid "c4a0fd95-045f-485d-882d-ebf6c45cd163")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "J17")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "J7")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3337,12 +3470,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0ad08db-10d1-4a97-8446-96d0b726702d")
+			(uuid "c6c3c8fe-3e3d-470a-8f02-2f471ae947ed")
 		)
 		(instances
 			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/05a99c97-6240-4e5e-b6a9-a36dfb628c26"
+					(reference "#PWR081")
+					(unit 1)
+				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a03c39d6-6910-42d9-b21d-b8f6aa6403fb"
 					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/d25a32d7-442e-482e-90f8-47542d85b960"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
