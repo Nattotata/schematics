@@ -1037,12 +1037,6 @@
 		(color 0 0 0 0)
 		(uuid "0cec3836-554b-43f1-a73d-9307c18783c1")
 	)
-	(junction
-		(at 111.76 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9df16d48-310a-4e09-ba0e-517f2c76b8f4")
-	)
 	(wire
 		(pts
 			(xy 138.43 93.98) (xy 138.43 92.71)
@@ -1055,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 125.73 92.71)
+			(xy 107.95 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1082,26 +1076,6 @@
 			(type default)
 		)
 		(uuid "3840025f-0675-47b2-88e1-5e864d8f4d4a")
-	)
-	(wire
-		(pts
-			(xy 111.76 88.9) (xy 111.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a38e21-b431-4a3f-8ca8-fed57f3fc31a")
-	)
-	(wire
-		(pts
-			(xy 107.95 92.71) (xy 111.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7531b1d9-b56b-43c2-ad17-1223a803d266")
 	)
 	(wire
 		(pts
@@ -1172,30 +1146,6 @@
 			(type default)
 		)
 		(uuid "ff60c58a-590a-4428-bd97-eb9b06282eb8")
-	)
-	(global_label "GPIO"
-		(shape input)
-		(at 111.76 88.9 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2dd9bb55-e21f-416a-a529-2d841def2007")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 81.4395 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(hierarchical_label "in"
 		(shape input)
@@ -1396,7 +1346,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ohm"
+		(property "Value" "100"
 			(at 129.54 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)

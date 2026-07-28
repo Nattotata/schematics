@@ -1227,13 +1227,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 107.95)
+			(xy 119.38 119.38) (xy 119.38 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fad86e8-aa73-4782-ac42-7fbc288f6fcf")
+		(uuid "140a193a-6d5a-45f5-a63e-9bdc83b87eb4")
 	)
 	(wire
 		(pts
@@ -1304,16 +1304,6 @@
 			(type default)
 		)
 		(uuid "69378af9-3784-4cc7-b19f-3d6426c1e714")
-	)
-	(wire
-		(pts
-			(xy 119.38 119.38) (xy 119.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03e483f-eaca-4385-9232-762869147362")
 	)
 	(wire
 		(pts
@@ -1434,30 +1424,6 @@
 			(type default)
 		)
 		(uuid "faba9ef3-bfc1-451e-a826-ab48ef0362d2")
-	)
-	(global_label "GPIO"
-		(shape input)
-		(at 119.38 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4da220c-cfbd-4d0b-a2d3-ab9162ecc9a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 89.0595 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(hierarchical_label "out"
 		(shape output)
@@ -1584,7 +1550,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7kOhm"
+		(property "Value" "4.7k"
 			(at 143.51 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,7 +1614,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 121.92 0)
+		(at 119.38 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1658,7 +1624,7 @@
 		(dnp no)
 		(uuid "3169c758-7591-4c78-ad2e-60706e7acb6a")
 		(property "Reference" "#PWR042"
-			(at 119.38 128.27 0)
+			(at 119.38 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,7 +1635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 126.746 0)
+			(at 119.38 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1679,7 +1645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 121.92 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 121.92 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1701,7 +1667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 121.92 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kOhm"
+		(property "Value" "100k"
 			(at 137.16 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)

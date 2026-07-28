@@ -1450,16 +1450,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 175.26 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d479eb9-a6c3-490c-954c-9b18a3c120a0")
-	)
-	(wire
-		(pts
 			(xy 175.26 100.33) (xy 175.26 102.87)
 		)
 		(stroke
@@ -1678,30 +1668,6 @@
 		)
 		(uuid "e0b5c7c6-12b0-4ff0-88c6-a13660c6010a")
 	)
-	(global_label "GPIO"
-		(shape input)
-		(at 175.26 78.74 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d1fee8cb-8cd4-4ce5-afe5-d3f1539b8973")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 71.2795 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "out"
 		(shape output)
 		(at 181.61 90.17 0)
@@ -1736,7 +1702,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k Ohm"
+		(property "Value" "10k"
 			(at 160.02 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2364,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k Ohm"
+		(property "Value" "3.3k"
 			(at 128.27 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1916,12 +1916,6 @@
 		(uuid "e1bd537d-1c70-4b7d-b2a7-ba5322427cb4")
 	)
 	(junction
-		(at 104.14 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a86416a-45ac-45ec-9160-79c08223a4d7")
-	)
-	(junction
 		(at 168.91 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2145,16 +2139,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7133c83-50e6-4a67-b89a-ec79dd6ecd87")
-	)
-	(wire
-		(pts
 			(xy 194.31 82.55) (xy 194.31 99.06)
 		)
 		(stroke
@@ -2272,30 +2256,6 @@
 			(type default)
 		)
 		(uuid "f8dcb1b6-29ab-41f6-9e4d-97a7ea78fc77")
-	)
-	(global_label "GPIO"
-		(shape input)
-		(at 104.14 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cea0b090-8597-42a2-acec-9e36fbd8dcb4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 78.8995 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(hierarchical_label "in"
 		(shape input)
@@ -2800,8 +2760,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 Ohm"
-			(at 115.57 97.79 0)
+		(property "Value" "330"
+			(at 110.49 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3247,7 +3207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k Ohm"
+		(property "Value" "10k"
 			(at 157.48 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
