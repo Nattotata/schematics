@@ -1903,6 +1903,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ESP optoisolated boolean output"
+		(exclude_from_sim no)
+		(at 147.32 68.58 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 255 97 9 1)
+			)
+			(justify left)
+		)
+		(uuid "e1bd537d-1c70-4b7d-b2a7-ba5322427cb4")
+	)
 	(junction
 		(at 104.14 90.17)
 		(diameter 0)
@@ -2261,16 +2273,6 @@
 		)
 		(uuid "f8dcb1b6-29ab-41f6-9e4d-97a7ea78fc77")
 	)
-	(label "ESP optoisolated boolean output"
-		(at 147.32 74.93 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "42d91240-ed1e-4bb8-8032-4b4698392064")
-	)
 	(global_label "GPIO"
 		(shape input)
 		(at 104.14 86.36 90)
@@ -2295,7 +2297,7 @@
 			)
 		)
 	)
-	(hierarchical_label "out"
+	(hierarchical_label "in"
 		(shape input)
 		(at 99.06 90.17 180)
 		(effects

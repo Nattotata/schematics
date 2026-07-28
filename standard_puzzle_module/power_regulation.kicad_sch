@@ -1590,6 +1590,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power input and regulation (12V to 5V)"
+		(exclude_from_sim no)
+		(at 148.59 67.31 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 255 97 9 1)
+			)
+		)
+		(uuid "55c4d198-ef7f-49e6-99ba-d81189b32ccd")
+	)
 	(junction
 		(at 191.77 82.55)
 		(diameter 0)
@@ -1971,16 +1982,6 @@
 			(type default)
 		)
 		(uuid "f4ece3a7-0069-4bec-8a8a-b420c2f52df5")
-	)
-	(label "Power input and regulation (12V to 5V)"
-		(at 123.19 71.12 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b0b2ca5-0d74-4bb4-a889-789ce4c7590f")
 	)
 	(symbol
 		(lib_id "power:+5V")

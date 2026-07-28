@@ -1175,6 +1175,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Signal input\nfor example, a microphone module\n"
+		(exclude_from_sim no)
+		(at 118.11 80.01 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 255 97 9 1)
+			)
+			(justify left)
+		)
+		(uuid "d66e5a29-4395-4cfb-b20f-4a729d4de6d1")
+	)
 	(junction
 		(at 134.62 107.95)
 		(diameter 0)
@@ -1245,16 +1257,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 120.65) (xy 119.38 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce519b2-5b11-453b-821b-fb0998aa71e4")
-	)
-	(wire
-		(pts
 			(xy 157.48 95.25) (xy 157.48 102.87)
 		)
 		(stroke
@@ -1302,6 +1304,16 @@
 			(type default)
 		)
 		(uuid "69378af9-3784-4cc7-b19f-3d6426c1e714")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03e483f-eaca-4385-9232-762869147362")
 	)
 	(wire
 		(pts
@@ -1423,26 +1435,6 @@
 		)
 		(uuid "faba9ef3-bfc1-451e-a826-ab48ef0362d2")
 	)
-	(label "for example, a microphone module"
-		(at 118.11 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "452679c1-2d0b-40c6-ad36-6a5b065a6636")
-	)
-	(label "Signal input"
-		(at 118.11 83.82 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a04cd31-1698-4ce9-a27f-850814f9902d")
-	)
 	(global_label "GPIO"
 		(shape input)
 		(at 119.38 96.52 90)
@@ -1467,7 +1459,7 @@
 			)
 		)
 	)
-	(hierarchical_label "signal_input"
+	(hierarchical_label "out"
 		(shape output)
 		(at 102.87 96.52 0)
 		(effects
@@ -1656,7 +1648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 120.65 0)
+		(at 119.38 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1666,7 +1658,7 @@
 		(dnp no)
 		(uuid "3169c758-7591-4c78-ad2e-60706e7acb6a")
 		(property "Reference" "#PWR042"
-			(at 119.38 127 0)
+			(at 119.38 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1677,7 +1669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 125.476 0)
+			(at 119.38 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1687,7 +1679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 120.65 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1698,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 120.65 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1709,7 +1701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 120.65 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

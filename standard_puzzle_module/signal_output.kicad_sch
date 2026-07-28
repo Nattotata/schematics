@@ -1019,6 +1019,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Signal output\nfor example, a speaker module\n"
+		(exclude_from_sim no)
+		(at 113.03 68.58 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 255 97 9 1)
+			)
+			(justify left)
+		)
+		(uuid "1fcc3180-9829-4477-898c-08e4e25cd257")
+	)
 	(junction
 		(at 138.43 92.71)
 		(diameter 0)
@@ -1161,26 +1173,6 @@
 		)
 		(uuid "ff60c58a-590a-4428-bd97-eb9b06282eb8")
 	)
-	(label "like a speaker module"
-		(at 110.49 69.85 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "4121f579-28c7-4ad6-9e4b-2d8cd905b62c")
-	)
-	(label "ESP digital signal output"
-		(at 110.49 66.04 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "788284b2-cff5-454a-9e4a-3287dda6ea4c")
-	)
 	(global_label "GPIO"
 		(shape input)
 		(at 111.76 88.9 90)
@@ -1205,7 +1197,7 @@
 			)
 		)
 	)
-	(hierarchical_label "out"
+	(hierarchical_label "in"
 		(shape input)
 		(at 107.95 92.71 180)
 		(effects
