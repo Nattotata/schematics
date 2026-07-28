@@ -1413,13 +1413,7 @@
 		)
 	)
 	(junction
-		(at 157.48 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e02c38a-88a4-4f29-b9fe-71f2fe8b6462")
-	)
-	(junction
-		(at 166.37 90.17)
+		(at 175.26 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50c1a49f-cc50-456a-b03b-04dd1e433d75")
@@ -1436,9 +1430,15 @@
 		(color 0 0 0 0)
 		(uuid "d57c316a-4649-43ba-b4b6-899f652d04b5")
 	)
+	(junction
+		(at 157.48 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1d54289-b5d9-41fa-b143-d145c1dd3029")
+	)
 	(wire
 		(pts
-			(xy 166.37 78.74) (xy 166.37 90.17)
+			(xy 175.26 78.74) (xy 175.26 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 166.37 102.87)
+			(xy 175.26 100.33) (xy 175.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1488,16 +1488,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 90.17) (xy 166.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31788e83-e1d2-4c27-837d-4e4912df9120")
-	)
-	(wire
-		(pts
 			(xy 157.48 105.41) (xy 157.48 90.17)
 		)
 		(stroke
@@ -1528,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 172.72 90.17)
+			(xy 175.26 90.17) (xy 181.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1628,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 166.37 92.71)
+			(xy 157.48 90.17) (xy 175.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19fe255-95b2-4c3f-aaf4-9c4be7d64c51")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 175.26 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1678,7 @@
 	)
 	(global_label "GPIO"
 		(shape input)
-		(at 166.37 78.74 90)
+		(at 175.26 78.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1688,7 +1688,7 @@
 		)
 		(uuid "d1fee8cb-8cd4-4ce5-afe5-d3f1539b8973")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 71.2795 90)
+			(at 175.26 71.2795 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1702,7 @@
 	)
 	(hierarchical_label "in"
 		(shape output)
-		(at 172.72 90.17 0)
+		(at 181.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b46c29a-ce14-49a9-8bfb-8e6382a5f70a")
-		(property "Reference" "R17"
+		(property "Reference" "R_SO3"
 			(at 160.02 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1734,7 +1734,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k Ohm"
 			(at 160.02 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1745,7 +1745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 159.258 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -1779,27 +1779,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "cf4453d9-e619-44f3-9500-89740cc91a5d")
+			(uuid "25e78785-6ce2-4978-b033-c464dddad43b")
 		)
 		(pin "1"
-			(uuid "f3a423c1-0c92-4c0b-b609-3244cdd514c2")
+			(uuid "70d2a67e-2dc5-4949-9244-fa30eba179ba")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "R25")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "R_SO10")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "R_SO8")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "R17")
+					(reference "R_SO3")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "R23")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "R_SO6")
 					(unit 1)
 				)
 			)
@@ -1816,7 +1816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2950637e-073e-4623-85d7-4f22d4cac0f0")
-		(property "Reference" "D8"
+		(property "Reference" "D_BI1"
 			(at 112.268 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1894,27 +1894,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "bb79f88d-6f8c-4c87-bf25-0073c1099e6b")
+			(uuid "b3c66fd9-16ed-4d95-b38e-cd7d6cee192e")
 		)
 		(pin "1"
-			(uuid "f6cab328-4d33-4798-a9ff-8ca2f64fd7db")
+			(uuid "f1c95324-f977-4b45-b0ec-5d187f6affba")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "D18")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "D_BI4")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "D_BI3")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "D8")
+					(reference "D_BI1")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "D16")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "D_BI2")
 					(unit 1)
 				)
 			)
@@ -1932,7 +1932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e6b275-5a73-4389-aa95-c80943a9cc25")
-		(property "Reference" "J8"
+		(property "Reference" "J_BI1"
 			(at 133.35 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +1943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "BOOLEAN IN"
 			(at 133.35 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,7 +1954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1988,27 +1988,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "a6f68bdf-4433-41fd-ac31-f63da7a7d323")
+			(uuid "a1ef94fd-60af-43b6-8926-3b48f43d35a2")
 		)
 		(pin "1"
-			(uuid "47c35ed1-22fa-4faf-9c13-091c7e26eb6b")
+			(uuid "77718f43-2893-4821-ad8a-eb2f455704e2")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "J15")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "J_BI4")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "J_BI3")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "J8")
+					(reference "J_BI1")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "J14")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "J13")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "J_BI2")
 					(unit 1)
 				)
 			)
@@ -2081,24 +2081,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "19cbb009-a5aa-46e1-930e-25890fd79343")
+			(uuid "5ccafecc-9bae-4c0a-839e-823ab0efcfd7")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "#PWR069")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
 					(reference "#PWR038")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "#PWR065")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "#PWR061")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2170,24 +2170,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "61196f3d-117d-41fd-a726-2425e45ee81a")
+			(uuid "76f7e44e-c354-46b3-98d0-2f5ba21bd7bc")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "#PWR070")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
 					(reference "#PWR039")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "#PWR066")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "#PWR062")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2195,7 +2195,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 96.52 0)
+		(at 175.26 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2204,8 +2204,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84b3758d-0a7f-47f8-a3e0-b94a95005667")
-		(property "Reference" "C12"
-			(at 170.688 96.012 0)
+		(property "Reference" "CC_BI1"
+			(at 181.61 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2215,7 +2215,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 172.212 98.298 0)
+			(at 181.61 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2224,8 +2224,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 167.3352 100.33 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 176.2252 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2236,7 +2236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 96.52 0)
+			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 96.52 0)
+			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,27 +2258,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "908208e0-a240-4208-a767-105d901c18cb")
+			(uuid "10cd0963-0d8e-47c2-9b03-62387835ecac")
 		)
 		(pin "1"
-			(uuid "f05aa32a-eaeb-43d5-ab4c-fc05000ebd67")
+			(uuid "6058acb6-c4a5-494f-bffe-bf32546356e5")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "C20")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "CC_BI4")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "CC_BI3")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "C12")
+					(reference "CC_BI1")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "C19")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "C18")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "CC_BI2")
 					(unit 1)
 				)
 			)
@@ -2286,7 +2286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 102.87 0)
+		(at 175.26 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2296,7 +2296,7 @@
 		(dnp no)
 		(uuid "8911694a-0067-4e19-8b0c-08309edcc5e1")
 		(property "Reference" "#PWR040"
-			(at 166.37 109.22 0)
+			(at 175.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 107.696 0)
+			(at 175.26 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2317,7 +2317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 102.87 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2328,7 +2328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 102.87 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 102.87 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2350,24 +2350,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cd01c41-4773-45b0-a5ee-eeb189566860")
+			(uuid "df3a8a34-a9c3-4ab2-855a-1ac77cd60c91")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "#PWR071")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
 					(reference "#PWR040")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "#PWR067")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "#PWR063")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91da7b3b-8fe6-4fb2-a0de-36cee38a5693")
-		(property "Reference" "R10"
+		(property "Reference" "R_SO2"
 			(at 128.27 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,7 +2407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 127.508 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -2441,27 +2441,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "75a729ac-3651-4795-afd2-ac4eca05133e")
+			(uuid "e2e37418-cf25-4671-9b7b-8faab2bb8581")
 		)
 		(pin "1"
-			(uuid "7403e5fd-6678-4ef3-9327-46fb83d570ed")
+			(uuid "436f0af3-ff35-4c8b-b5ad-7143497a37db")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "R13")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "R_SO9")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "R_SO7")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "R10")
+					(reference "R_SO2")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "R11")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "R_SO5")
 					(unit 1)
 				)
 			)
@@ -2534,24 +2534,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c982e9d-9cbc-4a44-b785-bfd94ee085fa")
+			(uuid "7e7eecab-b6a4-4bfc-a769-5209d0ae9469")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "#PWR08")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
 					(reference "#PWR03")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "#PWR05")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2623,24 +2623,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "92594f9b-fa20-438e-a602-994fabe66d21")
+			(uuid "9c084928-f1c2-4c8f-ad7a-8f50d8bd507b")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "#PWR072")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
 					(reference "#PWR041")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "#PWR068")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "#PWR064")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c121a6-783a-4dee-812f-4470a33175d8")
-		(property "Reference" "U8"
+		(property "Reference" "U_BI1"
 			(at 140.97 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,33 +2715,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "a18222f0-4758-482b-890b-a83a9e43c540")
+			(uuid "cd793d80-3770-4e37-a76e-eb7f518066a6")
 		)
 		(pin "2"
-			(uuid "82e57fd2-e8aa-4540-81bc-70c455e4b380")
+			(uuid "4d3e3145-9bcc-4cbe-a4c9-add7956c22ac")
 		)
 		(pin "1"
-			(uuid "822177f1-3fe6-4c3a-8487-46b739c16470")
+			(uuid "4fb11196-36f3-45a1-aec0-9f609ea2f7c4")
 		)
 		(pin "4"
-			(uuid "1026ea09-0a27-49ee-bbb4-61c0ed13b10d")
+			(uuid "f233747d-ec9f-4b10-b668-a83e14120069")
 		)
 		(instances
 			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/30374950-90da-411c-8e4a-5ea850107fc3"
-					(reference "U12")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
+					(reference "U_BI4")
+					(unit 1)
+				)
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
+					(reference "U_BI3")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "U8")
+					(reference "U_BI1")
 					(unit 1)
 				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e263c93f-c5f2-4128-9ed9-7224d6818bb3"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/13314f97-080e-4924-a8fe-b4d224920625/e6ebc0cf-0436-4396-9996-34f92e1726df"
-					(reference "U10")
+				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
+					(reference "U_BI2")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,76 @@
+Annotated IRLZ44N as Q_BO2.
+Annotated 4.7kOhm as R_SIN2.
+Annotated 100kOhm as R_SIN1.
+Annotated 10k Ohm as R_BO6.
+Annotated 330 Ohm as R_BO5.
+Annotated 10k Ohm as R_BO4.
+Annotated 330 Ohm as R_BO3.
+Annotated 10k Ohm as R_BO2.
+Annotated 330 Ohm as R_BO1.
+Annotated IRLZ44N as Q_BO3.
+Annotated 100kOhm as R_SIN3.
+Annotated IRLZ44N as Q_BO1.
+Annotated SIGNAL OUT as J_SO2.
+Annotated SIGNAL OUT as J_SO1.
+Annotated SIGNAL IN as J_SIN2.
+Annotated SIGNAL IN as J_SIN1.
+Annotated 12V IN as J_PWR1.
+Annotated BOOLEAN OUT as J_BO3.
+Annotated BOOLEAN OUT as J_BO2.
+Annotated 10k Ohm as R_SO8.
+Annotated PC817 as U_BO3.
+Annotated PC817 as U_BO2.
+Annotated PC817 as U_BO1.
+Annotated PC817 as U_BI4.
+Annotated PC817 as U_BI3.
+Annotated PC817 as U_BI2.
+Annotated PC817 as U_BI1.
+Annotated 10k Ohm as R_SO10.
+Annotated 3.3k Ohm as R_SO9.
+Annotated BOOLEAN OUT as J_BO1.
+Annotated 3.3k Ohm as R_SO7.
+Annotated 10k Ohm as R_SO6.
+Annotated 3.3k Ohm as R_SO5.
+Annotated 100 Ohm as R_SO4.
+Annotated 10k Ohm as R_SO3.
+Annotated 3.3k Ohm as R_SO2.
+Annotated 100 Ohm as R_SO1.
+Annotated 4.7kOhm as R_SIN4.
+Annotated 10nF as CC_SIN1.
+Annotated 1N4007 as D_BI3.
+Annotated 1N4007 as D_BI2.
+Annotated 1N4007 as D_BI1.
+Annotated 47uF as CP_PO1.
+Annotated 470uF as CP_PI1.
+Annotated 477uF as CP_BO3.
+Annotated 477uF as CP_BO2.
+Annotated 477uF as CP_BO1.
+Annotated 10nF as CC_SIN2.
+Annotated 1N4007 as D_BI4.
+Annotated 100nF as CC_PO1.
+Annotated 100nF as CC_PI1.
+Annotated 100nF as CC_BO3.
+Annotated 100nF as CC_BO2.
+Annotated 100nF as CC_BO1.
+Annotated 100nF as CC_BI4.
+Annotated 100nF as CC_BI3.
+Annotated 100nF as CC_BI2.
+Annotated P6KE15A as D_TVSP1.
+Annotated BOOLEAN IN as J_BI4.
+Annotated BOOLEAN IN as J_BI3.
+Annotated BOOLEAN IN as J_BI2.
+Annotated BOOLEAN IN as J_BI1.
+Annotated Polyfuse 2A as FUSE1.
+Annotated R-78E5.0-1.0 as DCREG1.
+Annotated P6KE6.8A as D_TVSSO2.
+Annotated P6KE6.8A as D_TVSSO1.
+Annotated 100nF as CC_BI1.
+Annotated 1N5711 as D_SCHSIN4.
+Annotated 1N5711 as D_SCHSIN3.
+Annotated 1N5711 as D_SCHSIN2.
+Annotated 1N5711 as D_SCHSIN1.
+Annotated 1N5819 as D_SCHP1.
+Annotated 1N4007 as D_BO3.
+Annotated 1N4007 as D_BO2.
+Annotated 1N4007 as D_BO1.
+Annotation complete.

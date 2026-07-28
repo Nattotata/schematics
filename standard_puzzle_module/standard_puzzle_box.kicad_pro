@@ -366,12 +366,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -416,7 +440,7 @@
         "uuid": "13314f97-080e-4924-a8fe-b4d224920625"
       }
     ],
-    "used_designators": "D1flyback1-4,J1-17,#PWR1-17,#PWR19,#PWR21-82,R1-28,C1-24,D1-18,Q1-5,F1-3,U1-14",
+    "used_designators": "R_SO1-10,R_BO1-6,Q_BO1-3,J_SO1-2,U_BO1-3,D_SCHSIN1-4,J_SIN1-2,D1flyback1-4,J1-17,#PWR1-82,R1-28,D_SCHP1,C1-24,J_PWR1,D1-18,U1-14,CC_SIN1-2,Q1-5,R_SIN1-4,F1-3,CC_BI1-4,CC_PO1,CC_PI1,FUSE1,U_BI1-4,CP_PO1,CP_BO1-3,CP_PI1,CC_BO1-3,D_BI1-4,J_BO1-3,D_BO1-3,D_TVSSO1-2,J_BI1-4,D_TVSP1,DCREG1",
     "variants": []
   },
   "sheets": [
@@ -445,31 +469,31 @@
       "boolean_output"
     ],
     [
-      "c0b0d7d0-33da-4714-9ac3-d3e577314e9e",
+      "b204176e-3230-48f0-bf70-6ca27eccae57",
       "signal_input1"
     ],
     [
-      "d355bcbe-498e-4dcd-b90a-6c2fd2972f51",
+      "ab6cca80-8821-447c-8513-efea89d4c4fe",
       "signal_output1"
     ],
     [
-      "e6ebc0cf-0436-4396-9996-34f92e1726df",
+      "a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67",
       "boolean_input1"
     ],
     [
-      "e263c93f-c5f2-4128-9ed9-7224d6818bb3",
+      "4d21fe22-e137-4b19-b5e5-b3ac06ec1179",
       "boolean_input2"
     ],
     [
-      "30374950-90da-411c-8e4a-5ea850107fc3",
+      "3cb740b1-9a02-4adc-be52-b74703d28484",
       "boolean_input3"
     ],
     [
-      "d25a32d7-442e-482e-90f8-47542d85b960",
+      "c319baa5-7891-48bd-bf9c-2fa1f3c09622",
       "boolean_output1"
     ],
     [
-      "05a99c97-6240-4e5e-b6a9-a36dfb628c26",
+      "4fd5eec9-11a5-4430-a99d-a00cbf28079e",
       "boolean_output2"
     ]
   ],

@@ -1824,62 +1824,6 @@
 		)
 	)
 	(sheet
-		(at 187.96 154.94)
-		(size 12.7 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "05a99c97-6240-4e5e-b6a9-a36dfb628c26")
-		(property "Sheetname" "boolean_output2"
-			(at 187.96 154.2284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "boolean_output.kicad_sch"
-			(at 187.96 160.6046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "out" input
-			(at 187.96 157.48 180)
-			(uuid "66923b05-3f0a-41fd-8212-230a838d056e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 187.96 132.08)
 		(size 13.97 5.08)
 		(exclude_from_sim no)
@@ -1894,7 +1838,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "30374950-90da-411c-8e4a-5ea850107fc3")
+		(uuid "3cb740b1-9a02-4adc-be52-b74703d28484")
 		(property "Sheetname" "boolean_input3"
 			(at 187.96 131.3684 0)
 			(show_name no)
@@ -1917,9 +1861,9 @@
 				(justify left top)
 			)
 		)
-		(pin "in" output
+		(pin "out" output
 			(at 187.96 134.62 180)
-			(uuid "eceac750-6036-40f3-b1a4-a68fd503dba6")
+			(uuid "04a9542a-5b75-4ed8-a802-b79145fe5ce2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,6 +1875,118 @@
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 120.65)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d21fe22-e137-4b19-b5e5-b3ac06ec1179")
+		(property "Sheetname" "boolean_input2"
+			(at 187.96 119.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boolean_input.kicad_sch"
+			(at 187.96 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" output
+			(at 187.96 123.19 180)
+			(uuid "3895fabb-e32d-4bb0-b4be-df745b80c6ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 154.94)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4fd5eec9-11a5-4430-a99d-a00cbf28079e")
+		(property "Sheetname" "boolean_output2"
+			(at 187.96 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boolean_output.kicad_sch"
+			(at 187.96 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "in" input
+			(at 187.96 157.48 180)
+			(uuid "69c8db3a-c46d-4bd9-a586-17878fb1bdd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625"
+					(page "13")
 				)
 			)
 		)
@@ -1973,7 +2029,7 @@
 				(justify left top)
 			)
 		)
-		(pin "in" output
+		(pin "out" output
 			(at 93.98 111.76 0)
 			(uuid "586ad2a2-508f-4432-8f3d-fdab5c4d004e")
 			(effects
@@ -2075,7 +2131,7 @@
 				(justify left top)
 			)
 		)
-		(pin "out" input
+		(pin "in" input
 			(at 93.98 123.19 0)
 			(uuid "2139fb6b-41b0-4296-bffc-e7b4e2731b40")
 			(effects
@@ -2131,7 +2187,7 @@
 				(justify left top)
 			)
 		)
-		(pin "out" input
+		(pin "in" input
 			(at 187.96 111.76 180)
 			(uuid "f3825d63-49c6-4448-8ee5-e7191c77e7d3")
 			(effects
@@ -2145,6 +2201,118 @@
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 97.79)
+		(size 13.97 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67")
+		(property "Sheetname" "boolean_input1"
+			(at 187.96 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boolean_input.kicad_sch"
+			(at 187.96 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" output
+			(at 187.96 100.33 180)
+			(uuid "fc4fd8d0-bbfb-42de-9c90-abc30f4c4948")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 86.36)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab6cca80-8821-447c-8513-efea89d4c4fe")
+		(property "Sheetname" "signal_output1"
+			(at 187.96 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal_output.kicad_sch"
+			(at 187.96 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "in" input
+			(at 187.96 88.9 180)
+			(uuid "0d2683aa-f862-412f-b049-559cf6433dc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "standard_puzzle_box"
+				(path "/13314f97-080e-4924-a8fe-b4d224920625"
+					(page "8")
 				)
 			)
 		)
@@ -2164,7 +2332,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "c0b0d7d0-33da-4714-9ac3-d3e577314e9e")
+		(uuid "b204176e-3230-48f0-bf70-6ca27eccae57")
 		(property "Sheetname" "signal_input1"
 			(at 80.01 97.0784 0)
 			(show_name no)
@@ -2187,9 +2355,9 @@
 				(justify left top)
 			)
 		)
-		(pin "signal_input" output
+		(pin "out" output
 			(at 93.98 100.33 0)
-			(uuid "bb748235-4798-4cfd-986c-7196de4022ed")
+			(uuid "d7b8d211-80e0-4927-a0d5-eae30f4de244")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2411,7 @@
 				(justify left top)
 			)
 		)
-		(pin "signal_input" output
+		(pin "out" output
 			(at 93.98 88.9 0)
 			(uuid "014de915-98ef-4970-bb14-b251002f82b7")
 			(effects
@@ -2276,7 +2444,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "d25a32d7-442e-482e-90f8-47542d85b960")
+		(uuid "c319baa5-7891-48bd-bf9c-2fa1f3c09622")
 		(property "Sheetname" "boolean_output1"
 			(at 187.96 142.7984 0)
 			(show_name no)
@@ -2299,9 +2467,9 @@
 				(justify left top)
 			)
 		)
-		(pin "out" input
+		(pin "in" input
 			(at 187.96 146.05 180)
-			(uuid "c43802a3-83f6-4618-9716-cc78dbffa615")
+			(uuid "d9eed103-216f-4699-b9ca-82ff4b416ac5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,174 +2481,6 @@
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 86.36)
-		(size 12.7 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "d355bcbe-498e-4dcd-b90a-6c2fd2972f51")
-		(property "Sheetname" "signal_output1"
-			(at 187.96 85.6484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "signal_output.kicad_sch"
-			(at 187.96 92.0246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "out" input
-			(at 187.96 88.9 180)
-			(uuid "72a27122-ff9f-4441-91c9-669d2a5f6eb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 120.65)
-		(size 13.97 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "e263c93f-c5f2-4128-9ed9-7224d6818bb3")
-		(property "Sheetname" "boolean_input2"
-			(at 187.96 119.9384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "boolean_input.kicad_sch"
-			(at 187.96 126.3146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "in" output
-			(at 187.96 123.19 180)
-			(uuid "33fc25f6-5708-4337-8b50-7ff17ff5397a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 97.79)
-		(size 13.97 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "e6ebc0cf-0436-4396-9996-34f92e1726df")
-		(property "Sheetname" "boolean_input1"
-			(at 187.96 97.0784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "boolean_input.kicad_sch"
-			(at 187.96 103.4546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "in" output
-			(at 187.96 100.33 180)
-			(uuid "b2394f69-c4c7-4168-9261-1f9778e2fc3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "standard_puzzle_box"
-				(path "/13314f97-080e-4924-a8fe-b4d224920625"
-					(page "9")
 				)
 			)
 		)
