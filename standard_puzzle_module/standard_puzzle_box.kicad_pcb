@@ -682,7 +682,7 @@
 	(footprint "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
 		(layer "F.Cu")
 		(uuid "095c496b-64e9-4757-b4ad-42e8ff0491a1")
-		(at 136.5 136 90)
+		(at 150.42 103.5 90)
 		(descr "DCDC-Converter, RECOM, RECOM_R-78E-0.5, SIP-3, pitch 2.54mm, package size 11.6x8.5x10.4mm^3, https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
 		(tags "dc-dc recom buck sip-3 pitch 2.54mm")
 		(property "Reference" "DCREG1"
@@ -2881,7 +2881,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "30293757-49cf-4c60-800e-f8aff692469b")
-		(at 134.5 175)
+		(at 151.92 148.5)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J_PWR1"
@@ -6572,7 +6572,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 48.63 87.69 0)
+			(at 62.55 55.19 0)
 			(layer "F.Fab")
 			(uuid "3b0d6efa-826a-4478-9720-3855d31e203b")
 			(effects
@@ -14724,7 +14724,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "8c93041c-8ed3-47ea-aa3b-3e3d6a47e586")
-		(at 146 135 -90)
+		(at 159.92 102.5 -90)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "CP_PO1"
@@ -20323,7 +20323,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "bff8df0c-397e-4f13-bc57-3edd984658fc")
-		(at 143.5 130)
+		(at 157.42 97.5)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "CC_PO1"
@@ -20799,7 +20799,7 @@
 	(footprint "Fuse:Fuse_BelFuse_0ZRE0040FF_L11.5mm_W3.8mm"
 		(layer "F.Cu")
 		(uuid "c120f300-2c82-4890-a93e-9eab803f7e72")
-		(at 134.6 162.5 90)
+		(at 148.52 130 90)
 		(descr "Fuse 0ZRE0040FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf")
 		(tags "0ZRE BelFuse radial PTC")
 		(property "Reference" "FUSE1"
@@ -21496,7 +21496,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "cdc133e6-0e84-4acb-85d3-fc6ae4fa17cd")
-		(at 144 149)
+		(at 157.92 116.5)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "CC_PI1"
@@ -22062,7 +22062,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d28f256e-e680-45ed-9154-eac6e18bbb26")
-		(at 144 160.5)
+		(at 157.92 128)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "CP_PI1"
@@ -24888,7 +24888,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d93de363-da2e-489e-b822-dd2a246d8c7d")
-		(at 136.5 142.38 -90)
+		(at 150.42 109.88 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D_SCHP1"
