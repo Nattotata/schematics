@@ -20,6 +20,7 @@
             pkgs.kicad
             pkgs.ngspice
             pkgs.python3
+            pkgs.jdk25
           ];
 
           shellHook = ''
