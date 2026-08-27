@@ -1735,28 +1735,28 @@
 		(uuid "22bc566f-efe5-4218-845a-4e0b44e846a2")
 	)
 	(junction
+		(at 152.4 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27362494-2e40-4a69-ba89-ab84c308104c")
+	)
+	(junction
 		(at 154.94 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b228e72-e387-42cf-8901-d95fb35905f5")
 	)
 	(junction
-		(at 101.6 87.63)
+		(at 147.32 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4763e473-e1dc-4460-bfa5-1fa99cb6a04d")
+		(uuid "3a5cd182-1e58-46bb-87d7-72f1a5ceca16")
 	)
 	(junction
 		(at 101.6 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e89243-1091-4685-abe5-db8b01fa861d")
-	)
-	(junction
-		(at 147.32 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49f441e3-b512-4b55-b85d-06c4a827b6d6")
 	)
 	(junction
 		(at 198.12 106.68)
@@ -1868,6 +1868,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40004a08-ac17-4e5b-bbd9-6593955385fc")
+	)
+	(wire
+		(pts
 			(xy 182.88 106.68) (xy 191.77 106.68)
 		)
 		(stroke
@@ -1908,23 +1918,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 101.6 87.63)
+			(xy 101.6 82.55) (xy 101.6 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6cfd2da1-e22a-466f-bf9a-1e13dcd93634")
-	)
-	(wire
-		(pts
-			(xy 147.32 82.55) (xy 154.94 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac6151b-7273-4868-96b5-63a6f510eda0")
 	)
 	(wire
 		(pts
@@ -1995,16 +1995,6 @@
 			(type default)
 		)
 		(uuid "9f31f6c4-f917-4a4f-8b81-c184d122df32")
-	)
-	(wire
-		(pts
-			(xy 101.6 87.63) (xy 101.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d9a2bc-c427-49af-ab23-ebbafdb8c8e5")
 	)
 	(wire
 		(pts
@@ -2145,6 +2135,16 @@
 			(type default)
 		)
 		(uuid "f4ece3a7-0069-4bec-8a8a-b420c2f52df5")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d7424a-cbcc-45c2-b7c3-df18d2f6ed15")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -2550,7 +2550,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 101.6 87.63 0)
+		(at 152.4 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2560,7 +2560,7 @@
 		(dnp no)
 		(uuid "60c62f19-81c0-4489-982d-65cd5e2843a2")
 		(property "Reference" "#PWR04"
-			(at 101.6 91.44 0)
+			(at 152.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 97.79 87.63 0)
+			(at 148.59 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2581,7 +2581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 87.63 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +2592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 87.63 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 87.63 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
