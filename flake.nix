@@ -24,8 +24,7 @@
           ];
 
           shellHook = ''
-            echo "Core GUI: launch via 'kicad'"
-            echo "Simulation Backend: ngspice engine verified"
+            echo "launch via 'kicad'"
             echo "install kicad theme manually from 'kicad-gruvbox-theme'"
             echo "https://github.com/AlexanderBrevig/kicad-gruvbox-theme"
             
