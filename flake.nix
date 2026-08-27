@@ -24,10 +24,13 @@
           ];
 
           shellHook = ''
-            echo "launch via 'kicad'"
+            echo "~~~BINARY~~~"
+            echo "launch via 'kicad PATH_TO_PROJECT' such as"
+            echo "kicad ./standard_puzzle_module/standard_puzzle_box.kicad_pro"
+
+            echo "~~~THEME~~~"
             echo "install kicad theme manually from 'kicad-gruvbox-theme'"
             echo "https://github.com/AlexanderBrevig/kicad-gruvbox-theme"
-            
             # Locate and export the Python bindings provided by KiCad
             if [ -d "${pkgs.kicad}/lib/python3.11/site-packages" ]; then
               export PYTHONPATH="${pkgs.kicad}/lib/python3.11/site-packages:$PYTHONPATH"
