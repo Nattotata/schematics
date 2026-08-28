@@ -62,7 +62,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "standard_puzzle_box.kicad_prl",
+    "filename": "universal_puzzle_node.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

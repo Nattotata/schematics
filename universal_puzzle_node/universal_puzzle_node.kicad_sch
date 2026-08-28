@@ -1235,7 +1235,7 @@
 			(uuid "ed0e8854-f376-42b3-b884-50d0b71f3552")
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(reference "#PWR02")
 					(unit 1)
@@ -1313,7 +1313,7 @@
 			(uuid "3e25e64d-4f85-4226-9e78-a850bcf0ee93")
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(reference "#PWR07")
 					(unit 1)
@@ -1436,7 +1436,7 @@
 			(uuid "ed175abb-00a7-41aa-8cb8-ac1d4116741e")
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(reference "U1")
 					(unit 1)
@@ -1513,7 +1513,7 @@
 			(uuid "86755b2a-897c-44c0-a4a1-4b92de0ce563")
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(reference "#PWR022")
 					(unit 1)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "11")
 				)
@@ -1626,7 +1626,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "10")
 				)
@@ -1682,7 +1682,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "13")
 				)
@@ -1738,7 +1738,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "5")
 				)
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "2")
 				)
@@ -1840,7 +1840,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "4")
 				)
@@ -1896,7 +1896,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "6")
 				)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "9")
 				)
@@ -2008,7 +2008,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "8")
 				)
@@ -2064,7 +2064,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "7")
 				)
@@ -2120,7 +2120,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "3")
 				)
@@ -2176,7 +2176,7 @@
 			)
 		)
 		(instances
-			(project "standard_puzzle_box"
+			(project "universal_puzzle_node"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
 					(page "12")
 				)

@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-08-28T23:12:59+02:00"
+    "CreationDate": "2026-08-28T23:43:13+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "standard_puzzle_box",
-      "GUID": "7374616e-6461-4726-945f-70757a7a6c65",
+      "Name": "universal_puzzle_node",
+      "GUID": "756e6976-6572-4736-916c-5f70757a7a6c",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,27 +34,27 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "standard_puzzle_box-F_Cu.gbr",
+      "Path": "universal_puzzle_node-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "standard_puzzle_box-B_Cu.gbr",
+      "Path": "universal_puzzle_node-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "standard_puzzle_box-F_Silkscreen.gbr",
+      "Path": "universal_puzzle_node-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "standard_puzzle_box-B_Silkscreen.gbr",
+      "Path": "universal_puzzle_node-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "standard_puzzle_box-Edge_Cuts.gbr",
+      "Path": "universal_puzzle_node-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

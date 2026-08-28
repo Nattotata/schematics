@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "standard_puzzle_box.kicad_pro",
+    "filename": "universal_puzzle_node.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -691,18 +691,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "standard_puzzle_box.kicad_sch",
-        "name": "standard_puzzle_box",
+        "filename": "universal_puzzle_node.kicad_sch",
+        "name": "universal_puzzle_node",
         "uuid": "13314f97-080e-4924-a8fe-b4d224920625"
       }
     ],
-    "used_designators": "DCREG1,D_TVSP1,J_BO1-3,D_BI1-4,CC_BO1-3,J1-17,Q_BO1-3,R1-28,D_SCHP1,R_BO1-6,FUSE1,CC_BI1-4,D_TVSSO1-2,J_BI1-4,C1-24,J_SO1-2,#FLG1-3,R_SO1-10,D1flyback1-4,J_SIN1-2,D_SCHSIN1-4,U_BO1-3,J_PWR1,D1-18,U1-14,Q1-5,CC_SIN1-2,D_BO1-3,CC_PI1,CC_PO1,R_SIN1-4,F1-3,#PWR1-82,CP_PI1,CP_BO1-3,CP_PO1,U_BI1-4",
+    "used_designators": "D_BO1-3,CC_SIN1-2,Q1-5,U1-14,D1-18,J_PWR1,U_BO1-3,D_SCHSIN1-4,CC_BI1-4,FUSE1,CC_PO1,CC_PI1,R1-28,R_BO1-6,D_SCHP1,R_SIN1-4,F1-3,#PWR1-82,CP_BO1-3,CP_PI1,Q_BO1-3,CP_PO1,U_BI1-4,J1-17,CC_BO1-3,D_BI1-4,J_BO1-3,D_TVSSO1-2,J_BI1-4,D_TVSP1,DCREG1,C1-24,J_SO1-2,#FLG1-3,R_SO1-10,D1flyback1-4,J_SIN1-2",
     "variants": []
   },
   "sheets": [
     [
       "13314f97-080e-4924-a8fe-b4d224920625",
-      "standard_puzzle_box"
+      "universal_puzzle_node"
     ],
     [
       "84527307-db04-4e9a-b4c6-f367c646187b",
