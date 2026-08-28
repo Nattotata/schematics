@@ -1629,7 +1629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b46c29a-ce14-49a9-8bfb-8e6382a5f70a")
-		(property "Reference" "R_SO3"
+		(property "Reference" "R_BI3"
 			(at 160.02 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1693,19 +1693,19 @@
 		(instances
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
-					(reference "R_SO10")
+					(reference "R_BI10")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
-					(reference "R_SO8")
+					(reference "R_BI8")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "R_SO3")
+					(reference "R_BI3")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
-					(reference "R_SO6")
+					(reference "R_BI6")
 					(unit 1)
 				)
 			)
@@ -2291,7 +2291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91da7b3b-8fe6-4fb2-a0de-36cee38a5693")
-		(property "Reference" "R_SO2"
+		(property "Reference" "R_BI2"
 			(at 128.27 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,19 +2355,19 @@
 		(instances
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/3cb740b1-9a02-4adc-be52-b74703d28484"
-					(reference "R_SO9")
+					(reference "R_BI9")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/4d21fe22-e137-4b19-b5e5-b3ac06ec1179"
-					(reference "R_SO7")
+					(reference "R_BI7")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/5f64ce72-3807-4d88-a28a-0ca03d044e7a"
-					(reference "R_SO2")
+					(reference "R_BI2")
 					(unit 1)
 				)
 				(path "/13314f97-080e-4924-a8fe-b4d224920625/a53fbb5d-1a9d-4dfa-ba02-9f03c2e38d67"
-					(reference "R_SO5")
+					(reference "R_BI5")
 					(unit 1)
 				)
 			)

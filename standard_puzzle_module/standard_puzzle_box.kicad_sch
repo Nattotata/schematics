@@ -1313,7 +1313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c441c34e-95bb-4ff8-ab84-e3e4b3230e06")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 142.24 121.158 0)
 			(hide yes)
 			(show_name no)
@@ -1334,7 +1334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32C3-SuperMini:ESP32-C3-SuperMini"
+		(property "Footprint" "ESP32-C3-SuperMini:ESP32-C3-SuperMini"
 			(at 142.24 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1418,7 +1418,7 @@
 		(instances
 			(project "standard_puzzle_box"
 				(path "/13314f97-080e-4924-a8fe-b4d224920625"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
