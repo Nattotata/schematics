@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-08-29T00:22:08+02:00"
+    "CreationDate": "2026-08-29T09:44:48+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -52,6 +52,16 @@
       "Path": "universal_puzzle_node-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "universal_puzzle_node-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "universal_puzzle_node-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "universal_puzzle_node-Edge_Cuts.gbr",

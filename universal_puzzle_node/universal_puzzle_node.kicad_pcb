@@ -95,7 +95,7 @@
 		(filling no)
 		(grid_origin 29 155.5)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_575555f5)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)

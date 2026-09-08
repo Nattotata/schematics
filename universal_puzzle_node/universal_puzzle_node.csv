@@ -1,0 +1,27 @@
+Reference	Qty	Value	Footprint
+CC_BI1,CC_BI2,CC_BI3,CC_BI4,CC_BO1,CC_BO2,CC_BO3,CC_PI1,CC_PO1	9	100nF	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm
+CC_SIN1,CC_SIN2	2	10nF	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm
+CP_BO1,CP_BO2,CP_BO3	3	477uF	Capacitor_THT:CP_Radial_D10.0mm_P5.00mm
+CP_PI1	1	470uF	Capacitor_THT:CP_Radial_D10.0mm_P5.00mm
+CP_PO1	1	47uF	Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
+DCREG1	1	R-78E5.0-1.0	Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT
+D_BI1,D_BI2,D_BI3,D_BI4,D_BO1,D_BO2,D_BO3	7	1N4007	Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+D_SCHP1	1	1N5819	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+D_SCHSIN1,D_SCHSIN2,D_SCHSIN3,D_SCHSIN4	4	1N5711	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+D_TVSP1	1	P6KE15A	Diode_THT:D_DO-15_P12.70mm_Horizontal
+D_TVSSO1,D_TVSSO2	2	P6KE6.8A	Diode_THT:D_DO-15_P12.70mm_Horizontal
+FUSE1	1	Polyfuse 2A	Fuse:Fuse_BelFuse_0ZRE0040FF_L11.5mm_W3.8mm
+J_BI1,J_BI2,J_BI3,J_BI4	4	BOOLEAN IN	TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+J_BO1,J_BO2,J_BO3	3	BOOLEAN OUT	TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+J_PWR1	1	12V IN	TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+J_SIN1,J_SIN2	2	SIGNAL IN	TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal
+J_SO1,J_SO2	2	SIGNAL OUT	TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal
+Q_BO1,Q_BO2,Q_BO3	3	IRLZ44N	Package_TO_SOT_THT:TO-220-3_Vertical
+R_BI2,R_BI5,R_BI7,R_BI9	4	3.3k	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R_BI3,R_BI6,R_BI8,R_BI10,R_BO2,R_BO4,R_BO6	7	10k	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R_BO1,R_BO3,R_BO5	3	330	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R_SIN1,R_SIN3	2	100k	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R_SIN2,R_SIN4	2	4.7k	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R_SO1,R_SO4	2	100	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+U1	1	ESP32-C3-SuperMini	ESP32-C3-SuperMini:ESP32-C3-SuperMini
+U_BI1,U_BI2,U_BI3,U_BI4,U_BO1,U_BO2,U_BO3	7	PC817	Package_DIP:DIP-4_W7.62mm
