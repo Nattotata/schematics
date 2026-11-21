@@ -1,0 +1,30 @@
+{
+    "MPN": [
+        false,
+        "3296W-1-502"
+    ],
+    "base": "c4a9745e-3c67-4463-89af-26d476a09551",
+    "datasheet": [
+        true,
+        ""
+    ],
+    "description": [
+        false,
+        "25-Turn Precision Trimmer, Top Adjust, 5k 10% 100ppm/C 1/2W"
+    ],
+    "inherit_model": true,
+    "inherit_tags": true,
+    "manufacturer": [
+        true,
+        "Bourns"
+    ],
+    "model": "5aec0fbd-c042-488e-8526-07ed3286708c",
+    "parametric": {},
+    "tags": [],
+    "type": "part",
+    "uuid": "63738472-7fbc-420b-bc9a-560fecdff43a",
+    "value": [
+        false,
+        "5k"
+    ]
+}

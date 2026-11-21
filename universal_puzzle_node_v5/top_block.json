@@ -1,0 +1,40 @@
+{
+    "block_instance_mappings": {},
+    "block_instances": {},
+    "bom_export_settings": {
+        "concrete_parts": {},
+        "csv_settings": {
+            "columns": [
+                "QTY",
+                "MPN",
+                "value",
+                "manufacturer",
+                "refdes"
+            ],
+            "order": "asc",
+            "sort_column": "refdes"
+        },
+        "orderable_MPNs": {},
+        "output_filename": ""
+    },
+    "buses": {},
+    "components": {},
+    "group_names": {},
+    "name": "Top",
+    "net_class_default": "09de42b9-ebd3-4a95-822e-55d5a6498e66",
+    "net_classes": {
+        "09de42b9-ebd3-4a95-822e-55d5a6498e66": {
+            "name": "default"
+        }
+    },
+    "nets": {},
+    "project_meta": {
+        "author": "Nattotata",
+        "date": "2026-11-20",
+        "project_name": "universal_puzzle_node_v5",
+        "project_title": "universal_puzzle_node_v5",
+        "rev": "1"
+    },
+    "tag_names": {},
+    "uuid": "db272c91-57fd-44e3-b5f8-a9d86046c692"
+}

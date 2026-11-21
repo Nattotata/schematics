@@ -1,0 +1,69 @@
+flowchart LR
+    subgraph SHEET["rs485.kicad_sch"]
+        direction LR
+
+        TX["UART_TX<br/>(D7 / GPIO44)"]:::pin
+        RX["UART_RX<br/>(D6 / GPIO43)"]:::pin
+        P3V3(["3V3"]):::pwr
+        PGND(["GND"]):::pwr
+
+        DI_R["R_RS485_DI<br/>10k"]
+        U["U_RS485<br/>MAX13487EESA+<br/>SOIC-8<br/>RO / DI / RE# / A / B / VCC / GND"]:::ic
+        C1["C_RS485_1<br/>100nF"]
+        C2["C_RS485_2<br/>1uF"]
+
+        SA["R_RS485_SA<br/>10R"]
+        SB["R_RS485_SB<br/>10R"]
+        TVSA["D_RS485_TVSA<br/>P6KE6.8A"]:::tvs
+        TVSB["D_RS485_TVSB<br/>P6KE6.8A"]:::tvs
+
+        TERM_L["R_RS485_TERMLINK<br/>0R"]:::link
+        TERM["R_RS485_TERM<br/>120R"]
+
+        BIASL_A["R_RS485_BIASLINK_A<br/>0R"]:::link
+        BIASA["R_RS485_BIASA<br/>560R"]
+        BIASL_B["R_RS485_BIASLINK_B<br/>0R"]:::link
+        BIASB["R_RS485_BIASB<br/>560R"]
+
+        J["J_RS485<br/>Screw 01x04<br/>A / B / GND / SHIELD"]:::conn
+
+        A(["A"]):::bus
+        B(["B"]):::bus
+    end
+
+    %% logic side
+    TX --> DI_R --> U
+    TX -.->|DI| U
+    U -->|RO| RX
+    DI_R --> P3V3
+
+    %% power
+    P3V3 --> U
+    U --> C1 --> PGND
+    U --> C2 --> PGND
+
+    %% transceiver to line, series R, protection, terminal
+    U -->|A| A
+    U -->|B| B
+    A --> SA --> J
+    B --> SB --> J
+    A --> TVSA --> PGND
+    B --> TVSB --> PGND
+
+    %% termination across A-B, behind link
+    A --> TERM_L --> TERM --> B
+
+    %% bias: A pulled up, B pulled down, each behind a link
+    P3V3 --> BIASA --> BIASL_A --> A
+    B --> BIASL_B --> BIASB --> PGND
+
+    %% terminal returns
+    J --> PGND
+
+    classDef pin fill:#e8f0fe,stroke:#1a73e8,color:#111;
+    classDef pwr fill:#fce8e6,stroke:#c5221f,color:#111;
+    classDef ic fill:#e6f4ea,stroke:#137333,color:#111;
+    classDef tvs fill:#fef7e0,stroke:#b06000,color:#111;
+    classDef link fill:#f1f3f4,stroke:#5f6368,color:#111;
+    classDef conn fill:#f3e8fd,stroke:#8430ce,color:#111;
+    classDef bus fill:#fff,stroke:#111,stroke-width:2px,color:#111;

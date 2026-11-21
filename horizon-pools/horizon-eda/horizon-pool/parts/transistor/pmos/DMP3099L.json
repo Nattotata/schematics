@@ -1,0 +1,34 @@
+{
+    "MPN": [
+        false,
+        "DMP3099L"
+    ],
+    "base": "03b1c077-db19-40a1-9a65-208053aff665",
+    "datasheet": [
+        false,
+        "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+    ],
+    "description": [
+        false,
+        "P-channel MOSFET, -30V, -3.8A, 65mΩ"
+    ],
+    "inherit_model": true,
+    "inherit_tags": true,
+    "manufacturer": [
+        false,
+        "Diodes Inc."
+    ],
+    "model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
+    "orderable_MPNs": {
+        "00083c25-3e2b-466f-877f-631779bfccda": "DMP3099L-13",
+        "2da6e1c4-50f4-4cc4-bd00-d7170daad70b": "DMP3099L-7"
+    },
+    "parametric": {},
+    "tags": [],
+    "type": "part",
+    "uuid": "cc5ebbec-0032-49f3-92bd-37853ebe5a2d",
+    "value": [
+        false,
+        ""
+    ]
+}

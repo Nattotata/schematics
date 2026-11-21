@@ -18,6 +18,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.kicad
+            pkgs.horizon-eda
             pkgs.ngspice
             pkgs.python3
             pkgs.jdk25

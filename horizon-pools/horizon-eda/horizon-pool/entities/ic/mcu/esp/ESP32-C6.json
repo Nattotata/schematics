@@ -1,0 +1,20 @@
+{
+    "gates": {
+        "670b825b-fdf9-489d-af1f-9d738d99b987": {
+            "name": "Main",
+            "suffix": "",
+            "swap_group": 0,
+            "unit": "5773f94e-915f-4b3f-b7a5-071b09891f4c"
+        }
+    },
+    "manufacturer": "Espressif",
+    "name": "ESP32-C6",
+    "prefix": "U",
+    "tags": [
+        "esp",
+        "ic",
+        "mcu"
+    ],
+    "type": "entity",
+    "uuid": "3df6fc05-77c7-481b-aff1-0c4735c25bc0"
+}
